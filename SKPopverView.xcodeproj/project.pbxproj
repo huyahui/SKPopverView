@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CD76E801BE85A6A00142D88 /* PoperListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CD76E7F1BE85A6A00142D88 /* PoperListView.m */; };
 		D7CE22EA1B32B62800122B01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CE22E91B32B62800122B01 /* main.m */; };
 		D7CE22ED1B32B62800122B01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CE22EC1B32B62800122B01 /* AppDelegate.m */; };
 		D7CE22F01B32B62800122B01 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CE22EF1B32B62800122B01 /* ViewController.m */; };
@@ -34,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2CD76E7E1BE85A6A00142D88 /* PoperListView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoperListView.h; sourceTree = "<group>"; };
+		2CD76E7F1BE85A6A00142D88 /* PoperListView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoperListView.m; sourceTree = "<group>"; };
 		D7CE22E41B32B62800122B01 /* SKPopverView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKPopverView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7CE22E81B32B62800122B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7CE22E91B32B62800122B01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -105,6 +108,8 @@
 				D7CE22EF1B32B62800122B01 /* ViewController.m */,
 				D7CE23121B32B76300122B01 /* PopoverView.h */,
 				D7CE23131B32B76300122B01 /* PopoverView.m */,
+				2CD76E7E1BE85A6A00142D88 /* PoperListView.h */,
+				2CD76E7F1BE85A6A00142D88 /* PoperListView.m */,
 				D7CE231B1B32B8CD00122B01 /* OneViewController.h */,
 				D7CE231C1B32B8CD00122B01 /* OneViewController.m */,
 				D7CE231E1B32B8D500122B01 /* TwoViewController.h */,
@@ -197,6 +202,7 @@
 				TargetAttributes = {
 					D7CE22E31B32B62800122B01 = {
 						CreatedOnToolsVersion = 6.3.2;
+						DevelopmentTeam = YJK3633YUG;
 					};
 					D7CE22FC1B32B62800122B01 = {
 						CreatedOnToolsVersion = 6.3.2;
@@ -258,6 +264,7 @@
 				D7CE23201B32B8D500122B01 /* TwoViewController.m in Sources */,
 				D7CE23141B32B76300122B01 /* PopoverView.m in Sources */,
 				D7CE22EA1B32B62800122B01 /* main.m in Sources */,
+				2CD76E801BE85A6A00142D88 /* PoperListView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,6 +390,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SKPopverView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -393,6 +401,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = SKPopverView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -2,14 +2,14 @@
 //  PopoverView.h
 //  ArrowView
 //
-//  Created by guojiang on 4/9/14.
-//  Copyright (c) 2014年 LINAICAI. All rights reserved.
+//  Created by  shaveKevin on 4/9/14.
+//  Copyright (c) 2014年 shaveKevin. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 @interface MenuItem : NSObject
 @property(nonatomic,copy)NSString *title;
-@property(nonatomic,retain)UIImage *image;
+@property(nonatomic,strong)UIImage *image;
 @property(nonatomic,assign)NSInteger menuId;
 @end
 @interface MenuCell : UICollectionViewCell

@@ -2,8 +2,8 @@
 //  PopoverView.m
 //  ArrowView
 //
-//  Created by guojiang on 4/9/14.
-//  Copyright (c) 2014年 LINAICAI. All rights reserved.
+//  Created by shaveKevin on 4/9/14.
+//  Copyright (c) 2014年 shaveKevin. All rights reserved.
 //
 
 
