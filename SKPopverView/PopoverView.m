@@ -157,7 +157,7 @@
     self.transform = CGAffineTransformMakeScale(0.1f, 0.1f);
     [UIView animateWithDuration:0.2f delay:0.f options:UIViewAnimationOptionCurveEaseInOut animations:^{
         self.transform = CGAffineTransformMakeScale(1.05f, 1.05f);
-        self.alpha = 1.f;
+        self.alpha = 1.0f;
     } completion:^(BOOL finished) {
         [UIView animateWithDuration:0.08f delay:0.f options:UIViewAnimationOptionCurveEaseInOut animations:^{
             self.transform = CGAffineTransformIdentity;

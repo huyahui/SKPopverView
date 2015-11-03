@@ -14,7 +14,6 @@
 		D7CE22F81B32B62800122B01 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7CE22F61B32B62800122B01 /* LaunchScreen.xib */; };
 		D7CE23041B32B62800122B01 /* SKPopverViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CE23031B32B62800122B01 /* SKPopverViewTests.m */; };
 		D7CE230F1B32B67800122B01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7CE230D1B32B67800122B01 /* Main.storyboard */; };
-		D7CE23111B32B6E100122B01 /* 首页-右上-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D7CE23101B32B6E100122B01 /* 首页-右上-1.png */; };
 		D7CE23141B32B76300122B01 /* PopoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CE23131B32B76300122B01 /* PopoverView.m */; };
 		D7CE23181B32B7DA00122B01 /* 首页-右上弹出-4.png in Resources */ = {isa = PBXBuildFile; fileRef = D7CE23151B32B7DA00122B01 /* 首页-右上弹出-4.png */; };
 		D7CE23191B32B7DA00122B01 /* 首页-右上弹出-5.png in Resources */ = {isa = PBXBuildFile; fileRef = D7CE23161B32B7DA00122B01 /* 首页-右上弹出-5.png */; };
@@ -48,7 +47,6 @@
 		D7CE23021B32B62800122B01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D7CE23031B32B62800122B01 /* SKPopverViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SKPopverViewTests.m; sourceTree = "<group>"; };
 		D7CE230E1B32B67800122B01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D7CE23101B32B6E100122B01 /* 首页-右上-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-右上-1.png"; sourceTree = "<group>"; };
 		D7CE23121B32B76300122B01 /* PopoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverView.h; sourceTree = "<group>"; };
 		D7CE23131B32B76300122B01 /* PopoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverView.m; sourceTree = "<group>"; };
 		D7CE23151B32B7DA00122B01 /* 首页-右上弹出-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "首页-右上弹出-4.png"; sourceTree = "<group>"; };
@@ -114,7 +112,6 @@
 				D7CE23211B32B8DC00122B01 /* ThreeViewController.h */,
 				D7CE23221B32B8DC00122B01 /* ThreeViewController.m */,
 				D7CE230D1B32B67800122B01 /* Main.storyboard */,
-				D7CE23101B32B6E100122B01 /* 首页-右上-1.png */,
 				D7CE23151B32B7DA00122B01 /* 首页-右上弹出-4.png */,
 				D7CE23161B32B7DA00122B01 /* 首页-右上弹出-5.png */,
 				D7CE23171B32B7DA00122B01 /* 首页-右上弹出-6.png */,
@@ -234,7 +231,6 @@
 				D7CE230F1B32B67800122B01 /* Main.storyboard in Resources */,
 				D7CE23181B32B7DA00122B01 /* 首页-右上弹出-4.png in Resources */,
 				D7CE23191B32B7DA00122B01 /* 首页-右上弹出-5.png in Resources */,
-				D7CE23111B32B6E100122B01 /* 首页-右上-1.png in Resources */,
 				D7CE231A1B32B7DA00122B01 /* 首页-右上弹出-6.png in Resources */,
 				D7CE22F81B32B62800122B01 /* LaunchScreen.xib in Resources */,
 				D7CE22F51B32B62800122B01 /* Images.xcassets in Resources */,
@@ -456,6 +452,7 @@
 				D7CE23091B32B62800122B01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7CE230A1B32B62800122B01 /* Build configuration list for PBXNativeTarget "SKPopverViewTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +461,7 @@
 				D7CE230C1B32B62800122B01 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
