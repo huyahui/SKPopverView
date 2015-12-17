@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "PopoverView.h"
 #import "PoperListView.h"
+
 @interface ViewController (){
     PopoverView *m_pop;
     NSMutableArray *m_menus;
@@ -31,7 +32,7 @@
     self.title = @"弹出菜单";
 }
 
-#pragma mark -菜单
+#pragma mark - 菜单
 //弹出菜单
 -(void)showTabBarItem{
     
